@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso de Pago</title>
+    <link rel="stylesheet" href="pago.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo-crclock.png" alt="CRClock" width="150" height="auto"></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="payment-section">
+            <h1>Detalles de facturación</h1>
+            <p>Por favor, ingresa los detalles para completar tu compra.</p>
+            
+            <form action="procesar_pago.php" method="POST" class="payment-form">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="direccion">Dirección de envío:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="tarjeta">Número de tarjeta de crédito:</label>
+                <input type="text" id="tarjeta" name="tarjeta" pattern="\d{16}" required>
+
+                <label for="fecha-expiracion">Fecha de expiración (MM/AA):</label>
+                <input type="text" id="fecha-expiracion" name="fecha-expiracion" pattern="\d{2}/\d{2}" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" pattern="\d{3}" required>
+
+                <button type="submit" class="buy-button">Realizar el pago</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+	<a href="catalogo rolex.html">Inicio</a>
+        <p>&copy; 2024 CRClock. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #ff4d4d, #b30000); /* Gradiente de rojo claro a oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    position: sticky; /* Se queda fijo en la parte superior */
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 120px; /* Tamaño del logo */
+    height: auto;
+    transition: transform 0.3s ease; /* Animación al pasar el ratón */
+}
+
+header .logo img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Detalles del producto */
+.product-details {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    gap: 20px; /* Espacio entre columnas */
+}
+
+/* Imagen del producto */
+.product-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.1);
+}
+
+/* Descripción del producto */
+.product-description {
+    flex: 2; /* Toma más espacio relativo */
+    max-width: 600px;
+}
+
+.product-description h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-description p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.product-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Botón Comprar */
+.buy-button {
+    display: inline-block;
+    background-color: #ff3333; /* Rojo vibrante */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.buy-button:hover {
+    background-color: #b30000; /* Rojo más oscuro */
+}
+
+/* Estilos para el video */
+.product-video {
+    flex: 1; /* Toma menos espacio relativo */
+    text-align: center;
+}
+
+.product-video h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-video iframe {
+    width: 100%; /* Se adapta al contenedor */
+    max-width: 360px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #ff4d4d; /* Borde rojo claro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #b30000, #800000); /* Gradiente de rojo oscuro */
+    color: #ffffff; /* Texto blanco */
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    border-top: 2px solid #ff4d4d; /* Línea superior roja */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ff9999; /* Rosa claro para enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff; /* Cambia a blanco al pasar el ratón */
+}
