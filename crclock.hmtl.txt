@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRClock - Tu sitio de relojes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">
+            <h1>CRClock</h1>
+        </div>
+        <nav class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Marcas -->
+    <section class="brand-display">
+        <h2>Distribuidor Oficial</h2>
+        <div class="brand-logos">
+            <div class="brand-item">
+		<a href="catalogo rolex.html">
+                <img src="rolex.jpg" alt="Rolex" class="brand-image">
+               
+            </div>
+            <div class="brand-item">
+		<a href="catalogo omega.html">
+                <img src="omega.png" alt="Omega" class="brand-image">
+          
+            </div>
+            <div class="brand-item">
+		<a href="catalogo panerai.html">
+                <img src="paneraii.png" alt="Panerai" class="brand-image">
+          
+            </div>
+            <div class="brand-item">
+		<a href="catalogo cartier.html">
+                <img src="cartier.jpg" alt="Cartier" class="brand-image">
+   
+            </div>
+            <div class="brand-item">
+		<a href="catalogo casio.html">
+                <img src="casio.png" alt="Casio" class="brand-image">
+            
+            </div>
+            <div class="brand-item">
+		<a href="catalogo breitling.html">
+                <img src="breitling.png" alt="Breitling" class="brand-image">
+        
+            </div>
+            <div class="brand-item">
+		<a href="catalogo breguet.html">
+                <img src="breguet.png" alt="Breguet" class="brand-image">
+              
+            </div>
+    
+
+    </section>
+
+    <!-- Sección de Imágenes y Texto -->
+    <section class="image-text-section">
+        <div class="content">
+            <img src="omega inicio.jpg" alt="Imagen de reloj" class="large-image">
+            <div class="text-content">
+                <h3>Relojes de Alta Gama</h3>
+                <p>Explora nuestra exclusiva colección de relojes de las marcas más prestigiosas del mundo.</p>
+            </div>
+
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact" id="contacto">
+ 
+        <p>&copy; 2024 CRClock. Todos los derechos reservados.</p>
+
+    </section>
+
+</body>
+</html>
